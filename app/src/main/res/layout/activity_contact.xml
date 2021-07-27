@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact"
+    android:background="@drawable/wallpaper">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="119dp">
+
+        <TextView
+            android:id="@+id/addNewContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginBottom="20dp"
+            android:text="Add New Contact"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="First Name:"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/last"
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="Enter your first name here"
+            android:textColor="@color/white"
+            android:textColorHint="#B6B0B0" />
+
+
+        <TextView
+            android:id="@+id/lastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Last Name:"
+            android:textColor="@color/white"
+
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/first"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="Enter your last name here"
+            android:textColorHint="#B5AFAF" />
+
+        <TextView
+            android:id="@+id/phoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Phone No. "
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/phoneNoInput"
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:hint="Enter your phone number here"
+            android:inputType="phone"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#B1AAAA" />
+
+        <Button
+            android:id="@+id/saveContactBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="Save Contact"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:backgroundTint="#7C4DFF" />
+
+        <Button
+            android:id="@+id/SenderNum"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:text="REGISTER YOUR NO." />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
